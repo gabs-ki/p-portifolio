@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    gap: 72px;
+    font-size: 1.20rem;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color .3s;
+}
+
+.menu li:hover {
+    border-color: var(--primary-color);
+}

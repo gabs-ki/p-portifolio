@@ -1,0 +1,75 @@
+.sobre-mim {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "title title"
+        "description skills";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+}
+
+.section-title {
+    grid-area: title;
+    font-size: clamp(2rem, 18vw, 14rem);
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(rgb(129, 129, 129), #000);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.description__title {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.description__text {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.skills {
+    grid-area: skills;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.skills__title {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.skills__icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.skills__icon {
+    width: 150px;
+    height: 150px;
+    background-color: var(--icon-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.skills__icon i {
+    font-size: 3rem;
+}
+
+.skills__icons span {
+    font-size: 1rem;
+}

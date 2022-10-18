@@ -1,0 +1,17 @@
+.logo {
+    font-size: 1.3rem;
+}
+
+.logo::before {
+    content: "<";
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.logo::after {
+    content: "/>";
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
