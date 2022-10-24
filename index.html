@@ -7,12 +7,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ddaca44862.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
   
     <title>
         Portifólio - Marcelo Gabriel
@@ -24,9 +27,7 @@
             <a href="#">
                 kian
             </a>
-        </div>
-        
-        
+        </div>    
         <nav>
             <ul class="menu">
                 <li>
@@ -36,12 +37,12 @@
                 </li>
                 <li>
                     <a href="#sobre-mim">
-                        Projetos
+                        Sobre Mim
                     </a>
                 </li>
                 <li>
                     <a href="#projetos">
-                        Sobre Mim
+                        Projetos
                     </a>
                 </li>
                 <li>
@@ -53,14 +54,19 @@
         </nav>
     </header>
     <main>
+
+        <a href="#" class="back" title="Voltar Ao Título">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+
         <section class="home" id="home">
             <img src="./img/EohmmKEW8AAKGv6 1.png" alt="foto" class="home__photo">
             <div>
                 <span class="home__text">Olá, meu nome é</span>
             
-            <h1 class="home__name">Marcelo</h1>
-            <span class="home__text">e sou desenvolvedor FrontEnd</span>
-        </div>
+                <h1 class="home__name">Marcelo</h1>
+                <span class="home__text">e sou desenvolvedor FrontEnd</span>
+            </div>
         </section>
         <section class="sobre-mim" id="sobre-mim">
 
@@ -111,15 +117,93 @@
             </div>
         </section>
         <section class="projetos" id="projetos">
-
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="#" class="card">
+                 <img src="./img/loki.png" alt="">
+                </a>
+                <a href="#" class="card">
+                 <img src="./img/purple-phone.png" alt="">
+                </a>
+                <a href="#" class="card">
+                 <img src="./img/pikachu.png" alt="">
+                </a>
+                <a href="#" class="card">
+                 <img src="./img/purple-phone.png" alt="">
+                </a>
+                <a href="#" class="card">
+                 <img src="./img/bolo.png" alt="">
+                </a>
+                <a href="#" class="card">
+                 <img src="./img/purple-phone.png" alt="">
+                </a>
+            </div>
         </section>
         <section class="contato" id="contato">
-
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-mobile"></i>
+                        <span>(11)945426819</span>
+                </li> </div>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>log4304.016@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua José Ubeda Martins, 91 - Novo Osasco, Osasco - SP - 06142-230</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social-item">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-github"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-youtube"></i>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">
+                        Links
+                    </h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
         </section>
-        main
+        
     </main>
     <footer>
-        footer
+        Todos os Direitos Reservados | 2022 | Desenvolvido Marcelo Gabriel
     </footer>
 </body>
 </html>
