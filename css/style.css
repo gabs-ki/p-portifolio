@@ -119,8 +119,10 @@ footer {
     }
 
     .sobre-mim {
-        max-width: 960px;
-        
+        grid-template-areas: "title"
+        "description"
+        "skills";
+    
 
     }
 
