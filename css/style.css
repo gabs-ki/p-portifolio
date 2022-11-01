@@ -86,7 +86,7 @@ footer {
 
     main {
         grid-template-columns: 1fr;
-
+        max-width: 960px;
     }
 
     .menu li{
@@ -99,7 +99,8 @@ footer {
     }
 
     .home {
-        max-width: 960px;
+        max-width: 900px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -113,18 +114,17 @@ footer {
         display: grid;
         text-align: center;
     }
+    
+    .home__photo {
+        width: 250px;
+        height: 250px;
+    }
 
     .back {
         display: none;
     }
 
-    .sobre-mim {
-        grid-template-areas: "title"
-        "description"
-        "skills";
     
-
-    }
 
     .skills__icons {
         display: flex;
