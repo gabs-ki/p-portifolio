@@ -20,3 +20,14 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+@media (max-width: 360px) {
+
+    .home__text {
+        font-size: 1rem;
+    }
+
+    .home__name {
+        font-size: 3rem;
+    }
+}

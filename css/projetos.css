@@ -1,4 +1,5 @@
 .projetos { 
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,4 +44,44 @@
 
 .card:hover::before {
     transform: translateY(0%);
+}
+
+@media (max-width: 960px) {
+
+    .projetos {
+        margin-top: 100px;
+        width: 560px;
+        width: 100%;
+        height: 2600px;
+    }
+
+    .card-container {
+        width: 500px;
+    }
+
+    .card {
+        width: 500px;
+        height: 350px;
+    }
+
+    
+    
+
+}
+
+@media (max-width: 370px) {
+    .projetos {
+        width: 368px;
+        max-width: 100%;
+        height: 270vh;
+    }
+
+    .card-container {
+        width: 290px;
+    }
+
+    .card {
+        width: 290px;
+        height: 180px;
+    }
 }
